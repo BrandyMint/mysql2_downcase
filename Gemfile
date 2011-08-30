@@ -3,7 +3,7 @@ source "http://rubygems.org"
 # Example:
 #   gem "activesupport", ">= 2.3.5"
 #
-gem 'activerecord', "~> 3.1.0.rc1"
+gem 'activerecord', ">= 3.1", :git=>'git://github.com/rails/rails.git'
 gem 'mysql2'
 
 # Add dependencies to develop your gem here.
