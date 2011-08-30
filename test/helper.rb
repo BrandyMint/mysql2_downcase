@@ -10,6 +10,8 @@ end
 require 'test/unit'
 require 'shoulda'
 
+require 'active_record'
+
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'mysql2_downcase'

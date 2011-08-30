@@ -1,7 +1,9 @@
 require 'helper'
+require 'active_record/connection_adapters/mysql2_downcase_adapter'
+
 
 class TestMysql2Downcase < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  should "should be mysql2_downcase driver" do
+    assert_respond_to ActiveRecord::Base, :mysql2_downcase_connection
   end
 end
