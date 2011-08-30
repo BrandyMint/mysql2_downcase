@@ -1,16 +1,14 @@
 = mysql2_downcase
 
-mysql2 driver that helps you to work with PHP-based databases having uppercased columns. Connect with this driver and use `User.first.id` instead of `User.first.ID`
+mysql2 driver that helps you to work with PHP-based databases having uppercased columns. Connect with this driver and use <tt>User.first.id</tt> instead of <tt>User.first.ID</tt>
 
 == Usage
 
-Set `mysql2_downcase` driver in database configuration:
+Set <tt>mysql2_downcase</tt> driver in database configuration:
 
-```
-production:
-  adapter: mysql2_downcase
-  ...
-```
+  production:
+    adapter: mysql2_downcase
+    ...
 
 == Contributing to mysql2_downcase
  
