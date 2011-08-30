@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "mysql2_downcase"
   gem.homepage = "http://github.com/dapi/mysql2_downcase"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{mysql2 connection driver that downcase column names}
+  gem.description = %Q{mysql2 driver that helps you to work with PHP-based databases having uppercased columns. Connect with this driver and use User.first.id instead of User.first.ID}
   gem.email = "danil@orionet.ru"
   gem.authors = ["Danil Pismenny"]
   # dependencies defined in Gemfile
